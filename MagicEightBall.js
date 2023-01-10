@@ -7,10 +7,11 @@ userName ? console.log(`Hello, ${userName}!`)
 const userQuestion = 'Will I land my dream job this year?';
 console.log(`${userName}` + ' ' + 'asks:' + ' ' + `${userQuestion}`);
 
+console.log('The Magic Ball returned: ');
 let randomNumber = Math.floor(Math.random() * 8);
 console.log(randomNumber);
 
-let eightBall = '';
+console.log('Then, the Magic Ball reveals: ');
 
 switch(randomNumber) {
 
